@@ -1,0 +1,20 @@
+{
+  "name": "my-new-agent",
+  "owner": {
+    "name": "My New Agent"
+  },
+  "metadata": {
+    "description": "Skills for My New Agent AI automation agency - client onboarding, SOP mapping, proposal generation, and meeting prep."
+  },
+  "plugins": [
+    {
+      "name": "client-onboarding",
+      "source": "./client-onboarding-plugin",
+      "description": "End-to-end client onboarding workflow: client setup, SOP documentation, process flow diagrams, scoping proposals, and speaking notes.",
+      "author": {
+        "name": "My New Agent"
+      },
+      "category": "business"
+    }
+  ]
+}
