@@ -1,0 +1,74 @@
+Design a single-page landing website for MyNewAgent.ai — an AI automation consulting agency that builds custom business automations in 2-6 weeks with measurable ROI.
+
+## CORE CONCEPT — Excalidraw Flowchart Navigation
+
+The entire page is styled as one giant hand-drawn Excalidraw-style flowchart on a dark canvas. Each major section of the landing page is a distinct flowchart "node" (rounded rectangle with a sketchy, hand-drawn border). Nodes are connected by hand-drawn arrows/lines that run vertically down the page.
+
+### Interaction model:
+- When the page loads, only NODE 1 (hero) is fully visible and "active" (bright border, glowing).
+- Each node has a CTA button. Clicking it triggers an animation: the connecting line from that node to the next one "lights up" (draws itself with an electric-blue glow, like current flowing through a wire), and the page smooth-scrolls to the next node which then fades in and activates.
+- Already-visited nodes stay lit. The line between them stays glowing. This creates a visual trail of progress down the flowchart.
+- Users can also scroll freely — nodes activate on scroll into viewport if not already active.
+- A small mini-map or progress indicator on the side shows which node you're on (like a vertical breadcrumb styled as a tiny flowchart).
+
+### Visual style:
+- Dark background (#0F0F23 deep navy) resembling an infinite Excalidraw canvas with a subtle dot grid pattern
+- Hand-drawn/sketchy aesthetic for all node borders, arrows, and decorative elements (use a library like Rough.js or SVG filters to achieve the hand-drawn look)
+- Electric Blue (#00D4FF) for active elements, glowing lines, and primary CTAs
+- Teal (#00C9A7) for secondary accents and completed/success states
+- White text on dark backgrounds, with occasional Gold (#FFD700) for key numbers and metrics
+- Typography: clean sans-serif for body text (Inter or similar), but node labels can have a slightly hand-written feel
+- Subtle animation: nodes have a very slight "wobble" or "breathe" effect when active, like hand-drawn elements that feel alive
+
+## THE NODES (Sections)
+
+### NODE 1: HERO — "Your Business Runs on Repetition. It Doesn't Have To."
+- The largest node, centered at top
+- Subtext: "We build custom AI automations that save your team 20+ hours per week — live in 2-6 weeks, not 6-12 months."
+- Key metrics displayed as small "sticky note" nodes branching off the main node (hand-drawn): "4-6 Week Delivery" / "$60K+ Avg Annual Savings" / "75%+ Value Stays With You"
+- CTA button inside the node: "See How It Works ↓" — clicking lights up the line to Node 2
+- Background: subtle animated particles or floating connection lines to reinforce the "flow" theme
+
+### NODE 2: THE MOMENT — "First-Mover Advantage Is Still Open. Not for Long."
+- A diamond-shaped decision node (Excalidraw style) to break visual monotony
+- Brief copy about the AI adoption lifecycle — we're in the Early Adopters phase, the window for competitive advantage is closing
+- A small hand-drawn chart/graph showing the adoption S-curve with a "YOU ARE HERE" marker
+- Key stat in gold: "Companies automating now are capturing 3-5x ROI before competitors even start"
+- CTA: "See Our Process ↓"
+
+### NODE 3: THE PROCESS — "From Chaos to Automation in 5 Steps"
+- This node is wider/larger — it contains 5 mini-nodes connected horizontally (a sub-flowchart within the main flowchart):
+  1. Discover → 2. Map SOPs → 3. Identify Savings → 4. Build It → 5. Go Live
+- Each mini-node has a one-line description and a small icon (hand-drawn style)
+- The mini-nodes light up sequentially with a staggered animation when this section activates
+- Timeline bar below: "Week 1-2 → Week 2-3 → Week 3 → Week 3-5 → Week 5-6"
+- CTA: "See Real Results ↓"
+
+### NODE 4: PROOF — "The Numbers Don't Lie"
+- 2-3 anonymized case study cards styled as "document" nodes (like paper/clipboard Excalidraw shapes)
+- Each card shows: Industry, Problem (1 line), Result (specific numbers: hours saved, cost reduced, error rate dropped)
+- Example: "Retail — Manual order processing → Automated fulfillment routing → 32 hrs/week saved, $58K annual savings"
+- Social proof element: a hand-drawn "testimonial bubble" node with a short quote
+- CTA: "Let's Talk ↓"
+
+### NODE 5: CTA — "Start Your Automation Blueprint — Free"
+- Final node, styled as a terminal/end node (rounded pill shape, Excalidraw style)
+- Offer: "Book a free 30-minute discovery call. We'll map your top 3 automation opportunities and show you the ROI — no commitment."
+- Simple form or Calendly embed inside the node
+- Contact alternatives as small branching nodes: Email, LinkedIn
+- When this node activates, all the connecting lines pulse once together (full flowchart "completes")
+
+## TECHNICAL REQUIREMENTS
+- Next.js (App Router) with Tailwind CSS
+- Smooth scroll behavior with Intersection Observer for scroll-based activation
+- Rough.js or custom SVG for hand-drawn borders and arrows
+- Framer Motion for line-drawing animations, node fade-ins, and the glow effects
+- Fully responsive: on mobile, nodes stack vertically with simpler connecting lines (straight down)
+- Fast — static content, no database, minimal JS for the animations
+- SEO: proper meta tags, OG image (styled as a mini flowchart), semantic HTML
+- Accessible: all animations respect prefers-reduced-motion, keyboard navigable, proper heading hierarchy
+
+## BRAND VOICE
+- Direct, confident, no buzzwords (never say "leverage," "synergy," "robust," "cutting-edge")
+- Speak to business owners, not engineers — use money, time, and competitive advantage language
+- Short sentences. Numbers for credibility. Show don't tell.

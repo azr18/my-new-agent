@@ -1,0 +1,1056 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "name": "Our Process",
+  "created": "2026-03-23T21:54:29.197580+00:00",
+  "modified": "2026-03-23T21:54:35.859118+00:00",
+  "elements": [
+    {
+      "type": "text",
+      "id": "a2a845f8f673",
+      "x": 330.0,
+      "y": 20.0,
+      "width": 320.0,
+      "height": 48.0,
+      "text": "How We Work With You",
+      "fontSize": 32,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "9e655957b9c6",
+      "x": 260.0,
+      "y": 62.0,
+      "width": 424.0,
+      "height": 24.0,
+      "text": "From first conversation to fully automated operations",
+      "fontSize": 16,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "0751a2a8cdd4",
+      "x": 30.0,
+      "y": 120.0,
+      "width": 240.0,
+      "height": 100.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "0718439b17d6",
+      "x": 95.0,
+      "y": 130.0,
+      "width": 110.0,
+      "height": 30.0,
+      "text": "1. Discover",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "6ed6ffca4129",
+      "x": 52.0,
+      "y": 162.0,
+      "width": 169.0,
+      "height": 19.5,
+      "text": "We learn how your practice",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "cb831d2b7d86",
+      "x": 52.0,
+      "y": 180.0,
+      "width": 169.0,
+      "height": 19.5,
+      "text": "actually runs, day to day.",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "764f452d69d4",
+      "x": 40.0,
+      "y": 235.0,
+      "width": 220.0,
+      "height": 70.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "73099534ea33",
+      "x": 58.0,
+      "y": 240.0,
+      "width": 48.0,
+      "height": 18.0,
+      "text": "You get:",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "a0413cc46cdd",
+      "x": 58.0,
+      "y": 258.0,
+      "width": 156.0,
+      "height": 18.0,
+      "text": "Tailored discovery session",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "00ea04347887",
+      "x": 58.0,
+      "y": 274.0,
+      "width": 108.0,
+      "height": 18.0,
+      "text": "Full process audit",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "1fcb30bde179",
+      "x": 58.0,
+      "y": 290.0,
+      "width": 162.0,
+      "height": 18.0,
+      "text": "Priority pain point ranking",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "a8c6c61dfc04",
+      "x": 150.0,
+      "y": 220.0,
+      "width": 0.0,
+      "height": 15.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          15.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "48f4f87cd7ef",
+      "x": 270.0,
+      "y": 170.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "716fd128a917",
+      "x": 310.0,
+      "y": 120.0,
+      "width": 240.0,
+      "height": 100.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "63e3566005bb",
+      "x": 370.0,
+      "y": 130.0,
+      "width": 110.0,
+      "height": 30.0,
+      "text": "2. Map SOPs",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "5a891534cbe8",
+      "x": 332.0,
+      "y": 162.0,
+      "width": 169.0,
+      "height": 19.5,
+      "text": "Document every step, every",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "f2aabd64238d",
+      "x": 332.0,
+      "y": 180.0,
+      "width": 169.0,
+      "height": 19.5,
+      "text": "handoff, every bottleneck.",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "e244a9b073f9",
+      "x": 320.0,
+      "y": 235.0,
+      "width": 220.0,
+      "height": 70.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "1a54486cd5fa",
+      "x": 338.0,
+      "y": 240.0,
+      "width": 48.0,
+      "height": 18.0,
+      "text": "You get:",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "150736a008ec",
+      "x": 338.0,
+      "y": 258.0,
+      "width": 174.0,
+      "height": 18.0,
+      "text": "Step-by-step SOPs per process",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "1e5aab12a74d",
+      "x": 338.0,
+      "y": 274.0,
+      "width": 150.0,
+      "height": 18.0,
+      "text": "Time + cost at every step",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "818dfe163287",
+      "x": 338.0,
+      "y": 290.0,
+      "width": 162.0,
+      "height": 18.0,
+      "text": "Automation ratings per task",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "82425d895c04",
+      "x": 430.0,
+      "y": 220.0,
+      "width": 0.0,
+      "height": 15.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          15.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "4d832815b365",
+      "x": 550.0,
+      "y": 170.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "bcf88b609f40",
+      "x": 590.0,
+      "y": 120.0,
+      "width": 240.0,
+      "height": 100.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "14a1e5e56da7",
+      "x": 625.0,
+      "y": 130.0,
+      "width": 190.0,
+      "height": 30.0,
+      "text": "3. Identify Savings",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "5d253451bbd4",
+      "x": 612.0,
+      "y": 162.0,
+      "width": 182.0,
+      "height": 19.5,
+      "text": "Calculate exactly where time",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "8dbaab284b13",
+      "x": 612.0,
+      "y": 180.0,
+      "width": 143.0,
+      "height": 19.5,
+      "text": "and money are leaking.",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "8bf142acdf50",
+      "x": 600.0,
+      "y": 235.0,
+      "width": 220.0,
+      "height": 70.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "d2491485c665",
+      "x": 618.0,
+      "y": 240.0,
+      "width": 48.0,
+      "height": 18.0,
+      "text": "You get:",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "56862cd12224",
+      "x": 618.0,
+      "y": 258.0,
+      "width": 174.0,
+      "height": 18.0,
+      "text": "Before/after process diagrams",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "d05a20546373",
+      "x": 618.0,
+      "y": 274.0,
+      "width": 162.0,
+      "height": 18.0,
+      "text": "Dollar value per automation",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "85ec4ec7d4c4",
+      "x": 618.0,
+      "y": 290.0,
+      "width": 114.0,
+      "height": 18.0,
+      "text": "Clear ROI breakdown",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "669c28084470",
+      "x": 710.0,
+      "y": 220.0,
+      "width": 0.0,
+      "height": 15.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          15.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "b49886bbeb43",
+      "x": 830.0,
+      "y": 170.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "961be56276cf",
+      "x": 870.0,
+      "y": 120.0,
+      "width": 240.0,
+      "height": 100.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "752ae952b7b3",
+      "x": 940.0,
+      "y": 130.0,
+      "width": 110.0,
+      "height": 30.0,
+      "text": "4. Build It",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "8f48bf77ddc5",
+      "x": 892.0,
+      "y": 162.0,
+      "width": 156.0,
+      "height": 19.5,
+      "text": "Build, test, and iterate",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "c9631f049c01",
+      "x": 892.0,
+      "y": 180.0,
+      "width": 136.5,
+      "height": 19.5,
+      "text": "using your real data.",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "c147053ced65",
+      "x": 880.0,
+      "y": 235.0,
+      "width": 220.0,
+      "height": 70.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e6fcf5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "2bd260a232b8",
+      "x": 898.0,
+      "y": 240.0,
+      "width": 48.0,
+      "height": 18.0,
+      "text": "You get:",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "b35c2daf8a67",
+      "x": 898.0,
+      "y": 258.0,
+      "width": 114.0,
+      "height": 18.0,
+      "text": "Working automations",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "b550c6ce87d5",
+      "x": 898.0,
+      "y": 274.0,
+      "width": 144.0,
+      "height": 18.0,
+      "text": "Tested on real scenarios",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "551b7c39991d",
+      "x": 898.0,
+      "y": 290.0,
+      "width": 138.0,
+      "height": 18.0,
+      "text": "Error handling built in",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "e79e856ebc9d",
+      "x": 990.0,
+      "y": 220.0,
+      "width": 0.0,
+      "height": 15.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          15.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "85d1b9eabeda",
+      "x": 1110.0,
+      "y": 170.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "44871ebdc795",
+      "x": 1150.0,
+      "y": 120.0,
+      "width": 240.0,
+      "height": 100.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "f2c057dea882",
+      "x": 1215.0,
+      "y": 130.0,
+      "width": 100.0,
+      "height": 30.0,
+      "text": "5. Go Live",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "b469119e6830",
+      "x": 1172.0,
+      "y": 162.0,
+      "width": 156.0,
+      "height": 19.5,
+      "text": "Deploy, train your team,",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "103129a56e20",
+      "x": 1172.0,
+      "y": 180.0,
+      "width": 149.5,
+      "height": 19.5,
+      "text": "and monitor everything.",
+      "fontSize": 13,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "24ef41de00c6",
+      "x": 1160.0,
+      "y": 235.0,
+      "width": 220.0,
+      "height": 70.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e6fcf5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "cbfe91fcc1c9",
+      "x": 1178.0,
+      "y": 240.0,
+      "width": 48.0,
+      "height": 18.0,
+      "text": "You get:",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "588da8fde1d5",
+      "x": 1178.0,
+      "y": 258.0,
+      "width": 162.0,
+      "height": 18.0,
+      "text": "Live system, fully deployed",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "470dc1864909",
+      "x": 1178.0,
+      "y": 274.0,
+      "width": 162.0,
+      "height": 18.0,
+      "text": "Team walkthrough + training",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "e0fe4a1871f5",
+      "x": 1178.0,
+      "y": 290.0,
+      "width": 168.0,
+      "height": 18.0,
+      "text": "Ongoing monitoring + support",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "51d313cfe970",
+      "x": 1270.0,
+      "y": 220.0,
+      "width": 0.0,
+      "height": 15.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          15.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "c78b21ef61fb",
+      "x": 30.0,
+      "y": 340.0,
+      "width": 1360.0,
+      "height": 45.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "25b39ef263a7",
+      "x": 440.0,
+      "y": 350.0,
+      "width": 440.0,
+      "height": 24.0,
+      "text": "Typical timeline: 4-6 weeks from kickoff to live system",
+      "fontSize": 16,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "1c241be9446f",
+      "x": 85.0,
+      "y": 405.0,
+      "width": 140.0,
+      "height": 36.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "778e4fc26164",
+      "x": 102.0,
+      "y": 412.0,
+      "width": 84.0,
+      "height": 21.0,
+      "text": "You Are Here",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "0d71ea6ca0d2",
+      "x": 150.0,
+      "y": 404.0,
+      "width": 0.0,
+      "height": 16.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          -16.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "926469521227",
+      "x": 350.0,
+      "y": 460.0,
+      "width": 468.0,
+      "height": 27.0,
+      "text": "You keep 75%+ of the value. We do the heavy lifting.",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}

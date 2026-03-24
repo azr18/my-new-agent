@@ -1,0 +1,843 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "name": "How We Work With You",
+  "created": "2026-03-17T14:22:46.132841+00:00",
+  "modified": "2026-03-17T14:22:52.588001+00:00",
+  "elements": [
+    {
+      "type": "text",
+      "id": "4876e80f63ac",
+      "x": 330.0,
+      "y": 15.0,
+      "width": 320.0,
+      "height": 48.0,
+      "text": "How We Work With You",
+      "fontSize": 32,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "85388e7ee068",
+      "x": 260.0,
+      "y": 58.0,
+      "width": 424.0,
+      "height": 24.0,
+      "text": "From first conversation to fully automated operations",
+      "fontSize": 16,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "7f286181de19",
+      "x": 30.0,
+      "y": 105.0,
+      "width": 520.0,
+      "height": 210.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "2b952a97834c",
+      "x": 50.0,
+      "y": 115.0,
+      "width": 230.0,
+      "height": 30.0,
+      "text": "Think of it this way...",
+      "fontSize": 20,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "ac42441b6b81",
+      "x": 50.0,
+      "y": 150.0,
+      "width": 287.0,
+      "height": 21.0,
+      "text": "Sarah is going on vacation for two weeks.",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "d62bc2607b4c",
+      "x": 50.0,
+      "y": 170.0,
+      "width": 287.0,
+      "height": 21.0,
+      "text": "She needs to hand everything off to Adam,",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "c3c38436e8e8",
+      "x": 50.0,
+      "y": 190.0,
+      "width": 238.0,
+      "height": 21.0,
+      "text": "who knows nothing about her tasks.",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "8a7ba87fe3ce",
+      "x": 50.0,
+      "y": 218.0,
+      "width": 294.0,
+      "height": 21.0,
+      "text": "So she writes down every task, every step,",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "9c74ae60e879",
+      "x": 50.0,
+      "y": 238.0,
+      "width": 280.0,
+      "height": 21.0,
+      "text": "every detail. That list? Those are SOPs.",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "9f21dec4da4e",
+      "x": 50.0,
+      "y": 268.0,
+      "width": 245.0,
+      "height": 21.0,
+      "text": "Now we look at Adam's list and ask:",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "76aed2cf7dd3",
+      "x": 50.0,
+      "y": 288.0,
+      "width": 280.0,
+      "height": 21.0,
+      "text": "which of these can a machine do instead?",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "95c77324ac36",
+      "x": 550.0,
+      "y": 210.0,
+      "width": 50.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          50.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "5e981564898c",
+      "x": 620.0,
+      "y": 105.0,
+      "width": 340.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "1272d5a8b548",
+      "x": 640.0,
+      "y": 112.0,
+      "width": 207.0,
+      "height": 27.0,
+      "text": "Step 1: List Every Task",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "099e2f4f1bd6",
+      "x": 640.0,
+      "y": 138.0,
+      "width": 234.0,
+      "height": 18.0,
+      "text": "Walk us through your daily/weekly work.",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "11c50384fca2",
+      "x": 640.0,
+      "y": 154.0,
+      "width": 228.0,
+      "height": 18.0,
+      "text": "We document each process step by step.",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "ede5722ac122",
+      "x": 970.0,
+      "y": 108.0,
+      "width": 200.0,
+      "height": 74.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "5430793eddf1",
+      "x": 985.0,
+      "y": 113.0,
+      "width": 44.0,
+      "height": 16.5,
+      "text": "You get:",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "fc99857035a1",
+      "x": 985.0,
+      "y": 128.0,
+      "width": 93.5,
+      "height": 16.5,
+      "text": "Detailed SOPs for",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "1c8e350590cd",
+      "x": 985.0,
+      "y": 143.0,
+      "width": 121.0,
+      "height": 16.5,
+      "text": "every process, written",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "490e9458d027",
+      "x": 985.0,
+      "y": 158.0,
+      "width": 126.5,
+      "height": 16.5,
+      "text": "so anyone could follow.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "0fed06d3c922",
+      "x": 960.0,
+      "y": 145.0,
+      "width": 10.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "82286f47d86e",
+      "x": 790.0,
+      "y": 185.0,
+      "width": 0.0,
+      "height": 20.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          20.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "97797a6a0dbc",
+      "x": 620.0,
+      "y": 205.0,
+      "width": 340.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "1c91a07ed1d4",
+      "x": 640.0,
+      "y": 212.0,
+      "width": 270.0,
+      "height": 27.0,
+      "text": "Step 2: Spot the Opportunities",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "d58e5c1c68dd",
+      "x": 640.0,
+      "y": 238.0,
+      "width": 198.0,
+      "height": 18.0,
+      "text": "We identify which tasks a machine",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "d5726b173eac",
+      "x": 640.0,
+      "y": 254.0,
+      "width": 210.0,
+      "height": 18.0,
+      "text": "can do faster, cheaper, error-free.",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "7fd1f18023d0",
+      "x": 970.0,
+      "y": 208.0,
+      "width": 200.0,
+      "height": 74.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "7142407f63ee",
+      "x": 985.0,
+      "y": 213.0,
+      "width": 44.0,
+      "height": 16.5,
+      "text": "You get:",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "9e477da9264f",
+      "x": 985.0,
+      "y": 228.0,
+      "width": 121.0,
+      "height": 16.5,
+      "text": "Dollar value per task.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "d1c6c889739b",
+      "x": 985.0,
+      "y": 243.0,
+      "width": 121.0,
+      "height": 16.5,
+      "text": "Before/after diagrams.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "de2ae21ec977",
+      "x": 985.0,
+      "y": 258.0,
+      "width": 110.0,
+      "height": 16.5,
+      "text": "Clear ROI breakdown.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "0f2831d6bd33",
+      "x": 960.0,
+      "y": 245.0,
+      "width": 10.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "ef56bd60ecf9",
+      "x": 790.0,
+      "y": 285.0,
+      "width": 0.0,
+      "height": 20.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          20.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "2dd30f8f4c65",
+      "x": 620.0,
+      "y": 305.0,
+      "width": 340.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "0e9b80449748",
+      "x": 640.0,
+      "y": 312.0,
+      "width": 225.0,
+      "height": 27.0,
+      "text": "Step 3: Build and Go Live",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "5defda7e4245",
+      "x": 640.0,
+      "y": 338.0,
+      "width": 198.0,
+      "height": 18.0,
+      "text": "We build it, test with your data,",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "78b5f76a2533",
+      "x": 640.0,
+      "y": 354.0,
+      "width": 198.0,
+      "height": 18.0,
+      "text": "deploy, train your team, monitor.",
+      "fontSize": 12,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "5a1911ed0956",
+      "x": 970.0,
+      "y": 308.0,
+      "width": 200.0,
+      "height": 74.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e6fcf5",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "da50acc07926",
+      "x": 985.0,
+      "y": 313.0,
+      "width": 44.0,
+      "height": 16.5,
+      "text": "You get:",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "9bda127d65ae",
+      "x": 985.0,
+      "y": 328.0,
+      "width": 110.0,
+      "height": 16.5,
+      "text": "Working automations.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "c2eeaaaa77d8",
+      "x": 985.0,
+      "y": 343.0,
+      "width": 77.0,
+      "height": 16.5,
+      "text": "Team training.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "c1b9d08e0c23",
+      "x": 985.0,
+      "y": 358.0,
+      "width": 104.5,
+      "height": 16.5,
+      "text": "Ongoing monitoring.",
+      "fontSize": 11,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "190eac01a3f6",
+      "x": 960.0,
+      "y": 345.0,
+      "width": 10.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          10.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "689db9305808",
+      "x": 30.0,
+      "y": 410.0,
+      "width": 1140.0,
+      "height": 40.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "5f55d285aa1b",
+      "x": 340.0,
+      "y": 418.0,
+      "width": 440.0,
+      "height": 24.0,
+      "text": "Typical timeline: 4-6 weeks from kickoff to live system",
+      "fontSize": 16,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "db7a291b6053",
+      "x": 85.0,
+      "y": 470.0,
+      "width": 140.0,
+      "height": 36.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "text",
+      "id": "a18296005292",
+      "x": 102.0,
+      "y": 477.0,
+      "width": 84.0,
+      "height": 21.0,
+      "text": "You Are Here",
+      "fontSize": 14,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "arrow",
+      "id": "0e958d1007b0",
+      "x": 150.0,
+      "y": 468.0,
+      "width": 0.0,
+      "height": 16.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          -16.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "text",
+      "id": "5a889c780953",
+      "x": 350.0,
+      "y": 520.0,
+      "width": 468.0,
+      "height": 27.0,
+      "text": "You keep 75%+ of the value. We do the heavy lifting.",
+      "fontSize": 18,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}

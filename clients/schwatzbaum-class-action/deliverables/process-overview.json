@@ -1,0 +1,270 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "name": "Our Process",
+  "created": "2026-03-22T19:35:56.634812+00:00",
+  "modified": "2026-03-22T19:35:57.963235+00:00",
+  "elements": [
+    {
+      "type": "text",
+      "id": "c2d4c020f264",
+      "x": 350.0,
+      "y": 30.0,
+      "width": 154.0,
+      "height": 42.0,
+      "text": "Our Process",
+      "fontSize": 28,
+      "strokeColor": "#1e1e1e",
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "239b50f905f8",
+      "x": 50.0,
+      "y": 120.0,
+      "width": 180.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "label": {
+        "text": "Discover",
+        "fontSize": 16
+      },
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "6807f53a15e3",
+      "x": 230.0,
+      "y": 160.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "607a464ebfbd",
+      "x": 270.0,
+      "y": 120.0,
+      "width": 180.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "label": {
+        "text": "Map SOPs",
+        "fontSize": 16
+      },
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "a893975bfaa1",
+      "x": 450.0,
+      "y": 160.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "82b972ef74b2",
+      "x": 490.0,
+      "y": 120.0,
+      "width": 220.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "label": {
+        "text": "Identify Bottlenecks",
+        "fontSize": 16
+      },
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "a5945703f111",
+      "x": 710.0,
+      "y": 160.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "8c71111a7cd9",
+      "x": 750.0,
+      "y": 120.0,
+      "width": 210.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "label": {
+        "text": "Build Automations",
+        "fontSize": 16
+      },
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "c0308497a3ff",
+      "x": 960.0,
+      "y": 160.0,
+      "width": 40.0,
+      "height": 0.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    },
+    {
+      "type": "rectangle",
+      "id": "09f1fd4f8abb",
+      "x": 1000.0,
+      "y": 120.0,
+      "width": 210.0,
+      "height": 80.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "label": {
+        "text": "Deploy & Monitor",
+        "fontSize": 16
+      },
+      "roundness": {
+        "type": 3
+      }
+    },
+    {
+      "type": "diamond",
+      "id": "c7e0cae82870",
+      "x": 55.0,
+      "y": 230.0,
+      "width": 170.0,
+      "height": 50.0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "label": {
+        "text": "You Are Here",
+        "fontSize": 16
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "4e58ae60df48",
+      "x": 140.0,
+      "y": 230.0,
+      "width": 0.0,
+      "height": 30.0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0,
+          -30.0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "startArrowhead": null,
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
