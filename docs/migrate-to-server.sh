@@ -26,8 +26,14 @@ sudo apt install -y -qq \
   libcairo2-dev libpango1.0-dev libgdk-pixbuf-2.0-dev libffi-dev \
   libxml2-dev libxslt1-dev shared-mime-info jq
 
-step "Phase 1b: Installing Python packages"
-pip3 install --user --quiet weasyprint markdown-it-py jinja2 reportlab python-pptx
+step "Phase 1b: Creating Python venv and installing packages"
+python3 -m venv /home/mna/.venv
+/home/mna/.venv/bin/pip install --quiet weasyprint markdown-it-py jinja2 reportlab python-pptx
+# Add venv to PATH so 'python3' resolves to the venv's python
+if ! grep -q '\.venv/bin' ~/.bashrc; then
+  echo 'export PATH="$HOME/.venv/bin:$PATH"' >> ~/.bashrc
+fi
+export PATH="$HOME/.venv/bin:$PATH"
 
 step "Phase 1c: Installing npm global packages (gws CLI, agent-browser)"
 sudo npm install -g @googleworkspace/cli agent-browser 2>/dev/null || true
