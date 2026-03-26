@@ -1,0 +1,363 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mynewagent.ai",
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "x": 330,
+      "y": 0,
+      "text": "How We Work With You",
+      "fontSize": 28,
+      "strokeColor": "#1e1e1e"
+    },
+    {
+      "type": "text",
+      "id": "sub",
+      "x": 280,
+      "y": 38,
+      "text": "From first conversation to fully automated operations",
+      "fontSize": 16,
+      "strokeColor": "#757575"
+    },
+    {
+      "type": "rectangle",
+      "id": "p1box",
+      "x": 30,
+      "y": 80,
+      "width": 240,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#4a9eed",
+      "strokeWidth": 2,
+      "label": {
+        "text": "1. Discover\n\nWe learn how your business\nactually runs, day to day.",
+        "fontSize": 16
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "p1del",
+      "x": 40,
+      "y": 200,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#4a9eed",
+      "strokeWidth": 1,
+      "label": {
+        "text": "You get:\nTailored discovery session\nFull process audit\nPriority pain point ranking",
+        "fontSize": 14
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "p1a",
+      "x": 150,
+      "y": 180,
+      "width": 0,
+      "height": 20,
+      "points": [[0, 0], [0, 20]],
+      "strokeColor": "#4a9eed",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p2box",
+      "x": 300,
+      "y": 80,
+      "width": 240,
+      "height": 100,
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#4a9eed",
+      "strokeWidth": 2,
+      "label": {
+        "text": "2. Map SOPs\n\nDocument every step,\nevery handoff, every bottleneck.",
+        "fontSize": 16
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "h12",
+      "x": 270,
+      "y": 130,
+      "width": 30,
+      "height": 0,
+      "points": [[0, 0], [30, 0]],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p2del",
+      "x": 310,
+      "y": 200,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#e7f5ff",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#4a9eed",
+      "strokeWidth": 1,
+      "label": {
+        "text": "You get:\nStep-by-step SOPs per process\nTime + cost at every step\nAutomation ratings per task",
+        "fontSize": 14
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "p2a",
+      "x": 420,
+      "y": 180,
+      "width": 0,
+      "height": 20,
+      "points": [[0, 0], [0, 20]],
+      "strokeColor": "#4a9eed",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p3box",
+      "x": 570,
+      "y": 80,
+      "width": 240,
+      "height": 100,
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 2,
+      "label": {
+        "text": "3. Identify Savings\n\nCalculate exactly where time\nand money are leaking.",
+        "fontSize": 16
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "h23",
+      "x": 540,
+      "y": 130,
+      "width": 30,
+      "height": 0,
+      "points": [[0, 0], [30, 0]],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p3del",
+      "x": 580,
+      "y": 200,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#fff4e6",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 1,
+      "label": {
+        "text": "You get:\nBefore/after process diagrams\nDollar value per automation\nClear ROI breakdown",
+        "fontSize": 14
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "p3a",
+      "x": 690,
+      "y": 180,
+      "width": 0,
+      "height": 20,
+      "points": [[0, 0], [0, 20]],
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p4box",
+      "x": 840,
+      "y": 80,
+      "width": 240,
+      "height": 100,
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#22c55e",
+      "strokeWidth": 2,
+      "label": {
+        "text": "4. Build It\n\nBuild, test, and iterate\nusing your real data.",
+        "fontSize": 16
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "h34",
+      "x": 810,
+      "y": 130,
+      "width": 30,
+      "height": 0,
+      "points": [[0, 0], [30, 0]],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p4del",
+      "x": 850,
+      "y": 200,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#e6fcf5",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#22c55e",
+      "strokeWidth": 1,
+      "label": {
+        "text": "You get:\nWorking automations\nTested on real scenarios\nError handling built in",
+        "fontSize": 14
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "p4a",
+      "x": 960,
+      "y": 180,
+      "width": 0,
+      "height": 20,
+      "points": [[0, 0], [0, 20]],
+      "strokeColor": "#22c55e",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p5box",
+      "x": 1110,
+      "y": 80,
+      "width": 240,
+      "height": 100,
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#22c55e",
+      "strokeWidth": 2,
+      "label": {
+        "text": "5. Go Live\n\nDeploy, train your team,\nand monitor everything.",
+        "fontSize": 16
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "h45",
+      "x": 1080,
+      "y": 130,
+      "width": 30,
+      "height": 0,
+      "points": [[0, 0], [30, 0]],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "p5del",
+      "x": 1120,
+      "y": 200,
+      "width": 220,
+      "height": 90,
+      "backgroundColor": "#e6fcf5",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#22c55e",
+      "strokeWidth": 1,
+      "label": {
+        "text": "You get:\nLive system, fully deployed\nTeam walkthrough + training\nOngoing monitoring + support",
+        "fontSize": 14
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "p5a",
+      "x": 1230,
+      "y": 180,
+      "width": 0,
+      "height": 20,
+      "points": [[0, 0], [0, 20]],
+      "strokeColor": "#22c55e",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "rectangle",
+      "id": "timeline",
+      "x": 30,
+      "y": 310,
+      "width": 1320,
+      "height": 45,
+      "backgroundColor": "#f8f9fa",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#868e96",
+      "strokeWidth": 1,
+      "label": {
+        "text": "Typical timeline: 4-6 weeks from kickoff to live system",
+        "fontSize": 21
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "yah",
+      "x": 75,
+      "y": 375,
+      "width": 160,
+      "height": 40,
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "roundness": { "type": 3 },
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 2,
+      "label": {
+        "text": "You Are Here",
+        "fontSize": 21
+      }
+    },
+    {
+      "type": "arrow",
+      "id": "yahA",
+      "x": 155,
+      "y": 374,
+      "width": 0,
+      "height": -16,
+      "points": [[0, 0], [0, -16]],
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 2,
+      "endArrowhead": "arrow"
+    },
+    {
+      "type": "text",
+      "id": "value",
+      "x": 340,
+      "y": 385,
+      "text": "You keep 75%+ of the value. We do the heavy lifting.",
+      "fontSize": 22,
+      "strokeColor": "#1e1e1e"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

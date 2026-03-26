@@ -1,0 +1,230 @@
+/* My New Agent - Branded PDF Stylesheet */
+/* Brand tokens: #0F0F23 (navy), #00D4FF (electric blue), #00C9A7 (teal), #FFD700 (gold) */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../../../../brand/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../../../../brand/fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@page {
+    size: letter;
+    margin: 1in 0.75in 0.75in 0.75in;
+
+    @top-left {
+        content: "My New Agent";
+        font-family: Inter, 'Ubuntu Sans', 'DejaVu Sans', sans-serif;
+        font-size: 9pt;
+        font-weight: 700;
+        color: #0F0F23;
+        border-bottom: 1px solid #00D4FF;
+        padding-bottom: 4pt;
+    }
+
+    @top-right {
+        content: string(doc-title);
+        font-family: Inter, 'Ubuntu Sans', 'DejaVu Sans', sans-serif;
+        font-size: 9pt;
+        color: #666666;
+        border-bottom: 1px solid #00D4FF;
+        padding-bottom: 4pt;
+    }
+
+    @bottom-left {
+        content: "mynewagent.ai";
+        font-family: Inter, 'Ubuntu Sans', 'DejaVu Sans', sans-serif;
+        font-size: 8pt;
+        color: #999999;
+        border-top: 1px solid #BBBBBB;
+        padding-top: 4pt;
+    }
+
+    @bottom-right {
+        content: "Page " counter(page) " of " counter(pages);
+        font-family: Inter, 'Ubuntu Sans', 'DejaVu Sans', sans-serif;
+        font-size: 8pt;
+        color: #999999;
+        border-top: 1px solid #BBBBBB;
+        padding-top: 4pt;
+    }
+}
+
+@page :first {
+    @top-left { content: none; border: none; }
+    @top-right { content: none; border: none; }
+}
+
+body {
+    font-family: Inter, 'Ubuntu Sans', 'DejaVu Sans', sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #333333;
+}
+
+/* Title extraction for running header */
+h1 {
+    string-set: doc-title content();
+    font-size: 24pt;
+    font-weight: 700;
+    color: #0F0F23;
+    margin-top: 0;
+    margin-bottom: 16pt;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid #00D4FF;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #0F0F23;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+    padding-left: 12pt;
+    border-left: 3px solid #00D4FF;
+}
+
+h3 {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 20pt;
+    margin-bottom: 8pt;
+}
+
+h4 {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #555555;
+    margin-top: 16pt;
+    margin-bottom: 6pt;
+}
+
+p {
+    margin-bottom: 8pt;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12pt 0;
+    font-size: 10pt;
+}
+
+thead tr {
+    background-color: #0F0F23;
+    color: #FFFFFF;
+}
+
+th {
+    padding: 8pt 10pt;
+    text-align: left;
+    font-weight: 700;
+}
+
+td {
+    padding: 6pt 10pt;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F8F9FA;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 3px solid #00C9A7;
+    background-color: #F8F9FA;
+    padding: 10pt 16pt;
+    margin: 12pt 0;
+    font-style: italic;
+    color: #555555;
+}
+
+blockquote p {
+    margin: 4pt 0;
+}
+
+/* Code */
+code {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 9.5pt;
+    background-color: #F0F0F0;
+    padding: 1pt 4pt;
+    border-radius: 2pt;
+}
+
+pre {
+    background-color: #1A1A2E;
+    color: #FFFFFF;
+    padding: 12pt 16pt;
+    border-radius: 4pt;
+    margin: 12pt 0;
+    overflow-x: auto;
+    font-size: 9pt;
+    line-height: 1.4;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+}
+
+/* Lists */
+ul, ol {
+    margin: 8pt 0;
+    padding-left: 24pt;
+}
+
+li {
+    margin-bottom: 4pt;
+}
+
+/* Links */
+a {
+    color: #00D4FF;
+    text-decoration: none;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #E0E0E0;
+    margin: 20pt 0;
+}
+
+/* Strong / emphasis */
+strong {
+    font-weight: 700;
+    color: #0F0F23;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Gold highlight for key metrics (use with inline HTML if needed) */
+.highlight {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+/* Comments (HTML comments in markdown become invisible) */
+.draft-notice {
+    background-color: #FFF3CD;
+    border: 1px solid #FFD700;
+    padding: 8pt 12pt;
+    margin: 12pt 0;
+    font-size: 10pt;
+    color: #856404;
+    border-radius: 4pt;
+}

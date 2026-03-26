@@ -174,3 +174,6 @@ Each question includes a note on what it reveals for the internal client profile
 
 51. **Do you have a budget range in mind, or would you rather we scope it first and show you the ROI?**
     *Reveals: Budget readiness, price sensitivity, whether to lead with value or numbers*
+
+52. **Is there anything about this questionnaire or the process so far that we could do better?**
+    *Reveals: Client experience friction, process improvement signal, builds trust by showing we value their input*

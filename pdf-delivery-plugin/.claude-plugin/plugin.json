@@ -1,0 +1,7 @@
+{
+  "name": "pdf-delivery",
+  "description": "Convert any markdown deliverable to a branded PDF for client delivery.",
+  "author": {
+    "name": "My New Agent"
+  }
+}

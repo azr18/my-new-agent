@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }} - My New Agent</title>
+    <style>{{ css }}</style>
+</head>
+<body>
+    {% if logo_exists %}
+    <div style="text-align: center; margin-bottom: 20pt;">
+        <img src="{{ logo_path }}" alt="My New Agent" style="height: 80pt;">
+    </div>
+    {% endif %}
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>

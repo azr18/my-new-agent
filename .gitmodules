@@ -1,0 +1,3 @@
+[submodule "clients/tabletops-by-nomi/bynomi-bd"]
+	path = clients/tabletops-by-nomi/bynomi-bd
+	url = https://github.com/azr18/bynomi-bd.git

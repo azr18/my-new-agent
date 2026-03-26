@@ -24,16 +24,16 @@ You are the onboarding system for My New Agent (mynewagent.ai), an AI automation
 Before doing anything, determine where we are:
 
 1. **Get the client slug.** If not obvious from the prompt, ask: "What's the client name? I'll create a slug from it."
-2. **Check `~/clients/{slug}/deliverables/`** for existing files to determine which step we're at.
+2. **Check `~/my-new-agent/clients/{slug}/deliverables/`** for existing files to determine which step we're at.
 3. **Match the user's intent to a step.** If ambiguous, ask which step they want.
 
 | Files Present | Likely Next Step |
 |--------------|-----------------|
 | Nothing / directory doesn't exist | Step 1 |
-| `process-overview.excalidraw`, `discovery-questionnaire.md`, `internal-client-profile.md` | Step 2 |
-| `sop-*.md` files | Step 3 |
-| `flow-*.excalidraw` files | Step 4 |
-| `proposal-*.md` | Step 5 |
+| `discovery/discovery-questionnaire.md`, `discovery/internal-client-profile.md` | Step 2 |
+| `sops/sop-*.md` files | Step 3 |
+| `flows/flow-*.excalidraw` files | Step 4 |
+| `proposal/proposal-*.md` | Step 5 |
 
 ---
 
@@ -93,17 +93,28 @@ Follow these rules in ALL client-facing deliverables:
 
 ## File Structure
 
-All deliverables go in `~/clients/{client-slug}/deliverables/`:
+All deliverables go in `~/my-new-agent/clients/{client-slug}/deliverables/`, organized by workflow step:
 
 ```
-~/clients/{client-slug}/deliverables/
-├── process-overview.excalidraw          # Step 1: Agency methodology diagram
-├── discovery-questionnaire.md           # Step 1: Tailored questions
-├── internal-client-profile.md           # Step 1: Internal tracking (never share)
-├── sop-{process-name}.md               # Step 2: One per process
-├── flow-{process-name}.excalidraw      # Step 3: Before/after process diagram
-├── proposal-{client-slug}.md           # Step 4: Scoping & pricing
-└── speaking-notes-{client-slug}.md     # Step 5: Meeting prep
+~/my-new-agent/clients/{client-slug}/deliverables/
+├── discovery/                              # Step 1
+│   ├── discovery-questionnaire.md          # Internal markdown
+│   ├── discovery-questionnaire.pdf         # PDF for client (via pdf-delivery skill)
+│   ├── internal-client-profile.md          # Internal only (never share)
+│   └── process-overview.excalidraw         # Copied from brand/
+├── sops/                                   # Step 2
+│   ├── sop-{process-name}.md              # Internal markdown
+│   └── sop-{process-name}.pdf             # PDF for client
+├── flows/                                  # Step 3
+│   ├── flow-{process-name}.excalidraw     # Before/after process diagram
+│   └── flow-{process-name}.json           # Excalidraw working file
+├── proposal/                               # Step 4
+│   ├── proposal-{client-slug}.md          # Internal markdown
+│   └── proposal-{client-slug}.pdf         # PDF for client
+├── meeting-prep/                           # Step 5
+│   └── speaking-notes-{client-slug}.md    # Internal only (meeting prep)
+└── research/                               # Ad-hoc research & case studies
+    └── (any research files, case studies, screenshots, etc.)
 ```
 
 ---
@@ -115,131 +126,32 @@ When the user mentions a new client, onboarding, or client prep, run all of thes
 ### 1a. Create Directory
 
 ```bash
-mkdir -p ~/clients/{client-slug}/deliverables/
+mkdir -p ~/my-new-agent/clients/{client-slug}/deliverables/{discovery,sops,flows,proposal,meeting-prep,research}
 ```
 
 ### 1b. Process Overview Diagram
 
-Generate `process-overview.excalidraw` showing the agency's 5-phase methodology. This is a client-facing diagram Ariel shows in the first meeting to set expectations. **The diagram must be rich and explanatory, not just labeled boxes.** The client should walk away understanding what each phase involves and what they get from it.
-
-**Use `cli-anything-excalidraw`** (reference: `/home/ariel/.claude/mcp-servers/excalidraw-mcp/agent-harness/cli_anything/excalidraw/skills/SKILL.md`).
-
-**IMPORTANT: Do NOT use `--label` on rectangles.** The `--label` flag uses a non-standard Excalidraw format that doesn't render in most viewers. Always add text as **separate `add-text` elements** positioned inside or below shapes.
-
-#### Diagram Structure
-
-The diagram must include ALL of the following layers:
-
-1. **Title + subtitle** at the top (e.g., "How We Work With You" / "From first conversation to fully automated operations")
-2. **5 phase boxes** (240w x 100h) with:
-   - Phase number + short name (font-size 20) inside each box
-   - 2-line plain-language description (font-size 13) inside each box explaining what happens
-3. **"You get:" deliverable boxes** (lighter shade, 220w x 70h) below each phase listing 3 concrete outputs the client receives
-4. **Connector arrows** between phases (horizontal) and from each phase to its deliverable box (vertical)
-5. **Timeline bar** at the bottom: "Typical timeline: 4-6 weeks from kickoff to live system"
-6. **"You Are Here" indicator** (amber) pointing to the current phase
-7. **Value statement** at the bottom: "You keep 75%+ of the value. We do the heavy lifting."
-
-#### Color Scheme
-
-| Phase | Main Box Fill | Deliverable Box Fill |
-|-------|-------------|---------------------|
-| 1. Discover | #a5d8ff (light blue) | #e7f5ff (pale blue) |
-| 2. Map SOPs | #a5d8ff (light blue) | #e7f5ff (pale blue) |
-| 3. Identify Savings | #ffd8a8 (amber) | #fff4e6 (pale amber) |
-| 4. Build It | #c3fae8 (light teal) | #e6fcf5 (pale teal) |
-| 5. Go Live | #c3fae8 (light teal) | #e6fcf5 (pale teal) |
-
-#### Phase Content
-
-| Phase | Description (inside box) | Deliverables (in "You get:" box) |
-|-------|--------------------------|----------------------------------|
-| 1. Discover | "We learn how your business actually runs, day to day." | Tailored discovery session / Full process audit / Priority pain point ranking |
-| 2. Map SOPs | "Document every step, every handoff, every bottleneck." | Step-by-step SOPs per process / Time + cost at every step / Automation ratings per task |
-| 3. Identify Savings | "Calculate exactly where time and money are leaking." | Before/after process diagrams / Dollar value per automation / Clear ROI breakdown |
-| 4. Build It | "Build, test, and iterate using your real data." | Working automations / Tested on real scenarios / Error handling built in |
-| 5. Go Live | "Deploy, train your team, and monitor everything." | Live system, fully deployed / Team walkthrough + training / Ongoing monitoring + support |
-
-#### Layout Coordinates
-
-- Phase boxes: y=120, spaced ~280px apart starting at x=30 (x: 30, 310, 590, 870, 1150)
-- Deliverable boxes: y=235, offset 10px right from their phase box
-- Horizontal arrows: between phase boxes at y=170
-- Vertical arrows: from phase box bottom (y=220) to deliverable box top (y=235)
-- Timeline bar: y=340, full width (x=30, w=1360)
-- "You Are Here": y=405, below timeline, with arrow pointing up
-- Value statement: y=460
-
-#### Commands Pattern
+The agency's 5-phase methodology diagram is a brand asset stored at `~/my-new-agent/brand/process-overview.excalidraw`. It does not need to be regenerated per client. Copy it to the client's deliverables directory:
 
 ```bash
-P=~/clients/{slug}/deliverables/process-overview.json
-cli-anything-excalidraw --json diagram new -o "$P" -n "Our Process"
-
-# Title + subtitle
-cli-anything-excalidraw --json -p "$P" element add-text -x 330 -y 20 --text "How We Work With You" --font-size 32
-cli-anything-excalidraw --json -p "$P" element add-text -x 260 -y 62 --text "From first conversation to fully automated operations" --font-size 16
-
-# For EACH phase, create: rect (main box) + text (title) + text (desc line 1) + text (desc line 2)
-# Then: rect (deliverable box) + text ("You get:") + text (deliverable 1) + text (deliverable 2) + text (deliverable 3)
-# Then: arrow (vertical connector) + arrow (horizontal to next phase)
-# See layout coordinates above for positioning.
-
-# Phase 1 example:
-cli-anything-excalidraw --json -p "$P" element add-rect -x 30 -y 120 -w 240 -h 100 --fill "#a5d8ff" --rounded
-cli-anything-excalidraw --json -p "$P" element add-text -x 85 -y 130 --text "1. Discover" --font-size 20
-cli-anything-excalidraw --json -p "$P" element add-text -x 52 -y 162 --text "We learn how your business" --font-size 13
-cli-anything-excalidraw --json -p "$P" element add-text -x 52 -y 180 --text "actually runs, day to day." --font-size 13
-cli-anything-excalidraw --json -p "$P" element add-rect -x 40 -y 235 -w 220 -h 70 --fill "#e7f5ff" --rounded
-cli-anything-excalidraw --json -p "$P" element add-text -x 58 -y 240 --text "You get:" --font-size 12
-cli-anything-excalidraw --json -p "$P" element add-text -x 58 -y 258 --text "Tailored discovery session" --font-size 12
-cli-anything-excalidraw --json -p "$P" element add-text -x 58 -y 274 --text "Full process audit" --font-size 12
-cli-anything-excalidraw --json -p "$P" element add-text -x 58 -y 290 --text "Priority pain point ranking" --font-size 12
-cli-anything-excalidraw --json -p "$P" element add-arrow -x 150 -y 220 --dx 0 --dy 15
-
-# ... repeat for phases 2-5, adjusting x positions per layout coordinates ...
-
-# Timeline bar
-cli-anything-excalidraw --json -p "$P" element add-rect -x 30 -y 340 -w 1360 -h 45 --fill "#f8f9fa" --rounded
-cli-anything-excalidraw --json -p "$P" element add-text -x 440 -y 350 --text "Typical timeline: 4-6 weeks from kickoff to live system" --font-size 16
-
-# "You Are Here" indicator
-cli-anything-excalidraw --json -p "$P" element add-rect -x 85 -y 405 -w 140 -h 36 --fill "#ffd8a8" --rounded
-cli-anything-excalidraw --json -p "$P" element add-text -x 102 -y 412 --text "You Are Here" --font-size 14
-cli-anything-excalidraw --json -p "$P" element add-arrow -x 150 -y 404 --dx 0 --dy -16
-
-# Value statement
-cli-anything-excalidraw --json -p "$P" element add-text -x 350 -y 460 --text "You keep 75%+ of the value. We do the heavy lifting." --font-size 18
-
-# Export
-cli-anything-excalidraw --json -p "$P" export json ~/clients/{slug}/deliverables/process-overview.excalidraw
+cp ~/my-new-agent/brand/process-overview.excalidraw ~/my-new-agent/clients/{slug}/deliverables/discovery/process-overview.excalidraw
 ```
 
-**Mermaid fallback** if cli-anything-excalidraw is not available (include deliverable notes as subtext):
-```markdown
-```mermaid
-graph LR
-    A["1. Discover\n---\nLearn your business\ninside and out"] --> B["2. Map SOPs\n---\nDocument every step,\nevery handoff"] --> C["3. Identify Savings\n---\nCalculate where time\nand money leak"] --> D["4. Build It\n---\nBuild, test, iterate\nwith your real data"] --> E["5. Go Live\n---\nDeploy, train,\nmonitor everything"]
-    style A fill:#a5d8ff,stroke:#4a9eed
-    style B fill:#a5d8ff,stroke:#4a9eed
-    style C fill:#ffd8a8,stroke:#f59e0b
-    style D fill:#c3fae8,stroke:#22c55e
-    style E fill:#c3fae8,stroke:#22c55e
-```
+This diagram shows our 5-phase process. Present it in the first meeting to set expectations.
 
-#### The Sarah & Adam Talking Point
+#### The Client Handoff Talking Point
 
 When presenting the diagram, use this analogy to explain SOPs in plain terms. This is a **verbal talking point** for the meeting, not part of the diagram itself.
 
-> "Think of it this way. Imagine Sarah is going on vacation for two weeks. She has to hand everything off to Adam, who knows nothing about her job. So she writes down every single task, every step, every detail. That list? In our world, those are called SOPs. That's what we do in phases 1 and 2: sit down with you and document everything, just like Sarah would for Adam."
+> "Think of it this way. Imagine you are going on a two-week trip and you need to hand every task off to me. I know nothing about how your business runs day to day. So you write down every single step, every detail, every 'if this happens, do that.' That list? Those are your SOPs. That is what we do in the first two phases: sit down together and document everything, as if you were handing it all to someone starting from scratch."
 >
-> "Then we look at Adam's list and ask: which of these tasks can a machine do instead? Not all of them. Some things need a human. But the repetitive, time-consuming stuff? A machine can do it faster, cheaper, and without mistakes. That's phase 3, 4, and 5."
+> "Then we look at that list and ask: which of these tasks can a machine do instead of a person? Not all of them. Some things need human judgment. But the repetitive, time-consuming stuff? A machine handles it faster, cheaper, and without mistakes. That is phases 3, 4, and 5."
 
-This analogy makes SOPs immediately understandable to any business owner. It reframes "process documentation" from boring paperwork into a natural, obvious step. Use it early in the conversation, then transition to walking through the diagram.
+This analogy makes SOPs immediately understandable to any business owner. It puts the client in the driver's seat (they are the expert) and positions us as the person receiving the handoff. Use it early in the conversation, then transition to walking through the diagram.
 
 ### 1c. Discovery Questionnaire
 
-Generate `discovery-questionnaire.md` with 15-25 questions selected from the question bank in `references/discovery-questions.md`.
+Generate `discovery/discovery-questionnaire.md` with 15-25 questions selected from the question bank in `references/discovery-questions.md`.
 
 **Customization rules:**
 - Always include all General Business questions
@@ -269,9 +181,11 @@ Format:
 40. ...
 ```
 
+**PDF delivery:** The discovery questionnaire markdown is for internal use. To send it to the client as a branded PDF, run the `pdf-delivery` skill or `python3 ~/my-new-agent/pdf-delivery-plugin/skills/pdf-delivery/references/generate_pdf.py <discovery/questionnaire-path>`
+
 ### 1d. Internal Client Profile
 
-Generate `internal-client-profile.md`. This is an internal tracking doc, never shared with the client.
+Generate `discovery/internal-client-profile.md`. This is an internal tracking doc, never shared with the client.
 
 ```markdown
 # Internal Profile: {Client Name}
@@ -311,11 +225,49 @@ Generate `internal-client-profile.md`. This is an internal tracking doc, never s
 
 ---
 
+### 1e. Brand Guide Reference
+
+All client-facing deliverables follow the agency brand guide at `~/my-new-agent/brand/brand-guide.md`. If this file does not exist, run the `brand-voice-generator` skill to create it. The brand guide defines writing voice and visual identity for all agency output.
+
+---
+
+### 1f. Send Discovery Questionnaire
+
+After the questionnaire PDF is generated and the internal profile is complete, send the questionnaire to the client via email with a Google Form option.
+
+**Trigger:** Questionnaire and PDF exist in `clients/{slug}/deliverables/discovery/`. User says "send the questionnaire" or completes Step 1 deliverables.
+
+**Template:** Load `references/discovery-email-template.md` for the email structure, placeholders, and GWS CLI commands.
+
+**Process:**
+
+1. Confirm `discovery-questionnaire.pdf` exists in the client's `discovery/` folder
+2. Read the client's `internal-client-profile.md` for name, email, and pain points
+3. Create a Google Form from the questionnaire markdown:
+   - `gws forms forms create` with client company name as title
+   - `gws forms forms batchUpdate` to add all questions (sections as page breaks, questions as paragraph text, none required)
+   - Capture the `responderUri` from the create response
+4. Fill the email template placeholders from the client profile and conversation context
+5. Create the Gmail draft with the form link in the body and PDF attached:
+   ```bash
+   gws gmail +send --to {EMAIL} --subject '...' --body '...' --html \
+     -a ~/my-new-agent/clients/{CLIENT_SLUG}/deliverables/discovery/discovery-questionnaire.pdf \
+     --draft
+   ```
+6. Present the draft to the user for review before sending
+7. After sending, update the internal profile checklist: `[x] Discovery questionnaire sent`
+
+---
+
 ## Step 2: SOP Documentation
 
-For each process identified in discovery, produce `sop-{process-name}.md`.
+For each process identified in discovery, produce `sops/sop-{process-name}.md`.
 
 **Trigger:** User shares discovery answers, describes a process, or says "create an SOP for X."
+
+**Brand guide:** Read `~/my-new-agent/brand/brand-guide.md` for agency voice and style. All SOPs follow the agency brand voice (direct, practical, numbers-forward). Use the client's industry terminology naturally, but the tone is ours.
+
+**PDF delivery:** After generating the SOP markdown, create a branded PDF for the client: run the `pdf-delivery` skill or `python3 ~/my-new-agent/pdf-delivery-plugin/skills/pdf-delivery/references/generate_pdf.py <sop-path>`
 
 **Legal/Arbitration Note:** For mass arbitration clients, common SOPs include: Claimant Intake & Validation, Demand Letter Generation, Arbitration Filing (per institution), Deadline & Calendar Management, Claimant Communication & Status Updates, Settlement Offer & Release Workflow, and Payment Distribution. Each SOP must note compliance considerations (bar association rules, claimant data privacy, ethical obligations around automated legal communications). Flag any step where attorney review is required before automation can proceed.
 
@@ -365,7 +317,7 @@ For each process identified in discovery, produce `sop-{process-name}.md`.
 
 ## Step 3: Process Flow Diagram
 
-For each documented SOP, produce `flow-{process-name}.excalidraw` showing the client's specific process before and after automation. **The diagram must be explanatory, not just boxes with labels.** Each step should include a description of what happens, who does it, and how long it takes. The client should immediately see where the waste is and what changes.
+For each documented SOP, produce `flows/flow-{process-name}.excalidraw` showing the client's specific process before and after automation. **The diagram must be explanatory, not just boxes with labels.** Each step should include a description of what happens, who does it, and how long it takes. The client should immediately see where the waste is and what changes.
 
 **Use `cli-anything-excalidraw`** (reference: `/home/ariel/.claude/mcp-servers/excalidraw-mcp/agent-harness/cli_anything/excalidraw/skills/SKILL.md`).
 
@@ -411,7 +363,7 @@ The diagram must include ALL of the following layers:
 ### Commands Pattern
 
 ```bash
-P=~/clients/{slug}/deliverables/flow-{process}.json
+P=~/my-new-agent/clients/{slug}/deliverables/flows/flow-{process}.json
 cli-anything-excalidraw --json diagram new -o "$P" -n "{Process}: Current vs. Automated"
 
 # Title
@@ -436,7 +388,7 @@ cli-anything-excalidraw --json -p "$P" element add-rect -x 30 -y 400 -w 900 -h 5
 cli-anything-excalidraw --json -p "$P" element add-text -x 60 -y 412 --text "Today: 3.5 hours/cycle  |  After: 25 minutes/cycle  |  Savings: 88% time reduction" --font-size 16
 
 # Export
-cli-anything-excalidraw --json -p "$P" export json ~/clients/{slug}/deliverables/flow-{process}.excalidraw
+cli-anything-excalidraw --json -p "$P" export json ~/my-new-agent/clients/{slug}/deliverables/flows/flow-{process}.excalidraw
 ```
 
 **Mermaid fallback** (include time annotations and who does each step):
@@ -460,9 +412,13 @@ graph LR
 
 ## Step 4: Scoping & Pricing Proposal
 
-Produce `proposal-{client-slug}.md`. This is the client-facing proposal document.
+Produce `proposal/proposal-{client-slug}.md`. This is the client-facing proposal document.
 
 **Trigger:** User says "price this," "scope this," "create a proposal," or all SOPs are documented.
+
+**Brand guide:** Read `~/my-new-agent/brand/brand-guide.md` for agency voice and visual identity. Proposals follow the agency brand voice: direct, numbers-forward, confident. Use the client's industry terminology naturally.
+
+**PDF delivery:** After generating the proposal markdown, create a branded PDF for the client: run the `pdf-delivery` skill or `python3 ~/my-new-agent/pdf-delivery-plugin/skills/pdf-delivery/references/generate_pdf.py <proposal-path>`
 
 **Legal/Arbitration Note:** For legal clients, the proposal should explicitly address: data security and claimant PII handling, compliance with relevant bar association rules on automated communications, attorney review checkpoints in automated workflows, and audit trail requirements. Frame automations as "supporting the attorney's work" rather than replacing legal judgment. Pricing for legal clients may use a per-claimant or per-case model rather than pure hourly savings, since case volume is the primary scale driver.
 
@@ -548,9 +504,11 @@ Produce `proposal-{client-slug}.md`. This is the client-facing proposal document
 
 ## Step 5: Speaking Notes
 
-Produce `speaking-notes-{client-slug}.md`. This is meeting prep for Ariel, not a deliverable sent to the client.
+Produce `meeting-prep/speaking-notes-{client-slug}.md`. This is meeting prep for Ariel, not a deliverable sent to the client.
 
 **Trigger:** User says "prep my speaking notes," "prepare for the meeting," or proposal is done.
+
+**Brand guide:** Speaking notes are internal prep for Ariel, not client-facing. Write in the agency voice per `~/my-new-agent/brand/brand-guide.md`. Adapt industry language and talking points to the specific client.
 
 ### Speaking Notes Format
 

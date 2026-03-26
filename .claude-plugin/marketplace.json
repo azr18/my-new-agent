@@ -15,6 +15,33 @@
         "name": "My New Agent"
       },
       "category": "business"
+    },
+    {
+      "name": "brand-voice-generator",
+      "source": "./brand-voice-generator-plugin",
+      "description": "Define and maintain the agency brand guide: writing voice, visual identity, colors, fonts, and logo usage.",
+      "author": {
+        "name": "My New Agent"
+      },
+      "category": "business"
+    },
+    {
+      "name": "pdf-delivery",
+      "source": "./pdf-delivery-plugin",
+      "description": "Convert any markdown deliverable to a branded PDF for client delivery.",
+      "author": {
+        "name": "My New Agent"
+      },
+      "category": "business"
+    },
+    {
+      "name": "google-workspace",
+      "source": "./google-workspace-plugin",
+      "description": "Google Workspace integration: Gmail, Calendar, Drive, Docs, Sheets, Slides, Tasks, Contacts, Forms, Keep, Classroom, Admin, and cross-service workflows via the gws CLI.",
+      "author": {
+        "name": "My New Agent"
+      },
+      "category": "productivity"
     }
   ]
 }

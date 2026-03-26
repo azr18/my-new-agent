@@ -1,0 +1,7 @@
+{
+  "name": "google-workspace",
+  "description": "Google Workspace integration: Gmail, Calendar, Drive, Docs, Sheets, Slides, Tasks, Contacts, Forms, Keep, Classroom, Admin, and cross-service workflows via the gws CLI.",
+  "author": {
+    "name": "My New Agent"
+  }
+}
