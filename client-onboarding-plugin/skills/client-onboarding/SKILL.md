@@ -319,7 +319,7 @@ For each process identified in discovery, produce `sops/sop-{process-name}.md`.
 
 For each documented SOP, produce `flows/flow-{process-name}.excalidraw` showing the client's specific process before and after automation. **The diagram must be explanatory, not just boxes with labels.** Each step should include a description of what happens, who does it, and how long it takes. The client should immediately see where the waste is and what changes.
 
-**Use `cli-anything-excalidraw`** (reference: `/home/ariel/.claude/mcp-servers/excalidraw-mcp/agent-harness/cli_anything/excalidraw/skills/SKILL.md`).
+**Use `cli-anything-excalidraw`** (reference: `/home/mna/.claude/plugins/marketplaces/cli-anything/excalidraw/agent-harness/cli_anything/excalidraw/skills/SKILL.md`).
 
 **IMPORTANT: Do NOT use `--label` on rectangles.** The `--label` flag uses a non-standard Excalidraw format that doesn't render in most viewers. Always add text as **separate `add-text` elements** positioned inside or below shapes.
 

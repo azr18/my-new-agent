@@ -102,7 +102,7 @@ Use when explaining SOPs: the client is going on a two-week trip and needs to ha
 - Python for data processing and automation scripts
 - n8n for workflow automation
 - Excalidraw (via cli-anything-excalidraw MCP server) for process diagrams
-- WSL2 (Ubuntu on Windows), Node.js v20 via nvm
+- Ubuntu Server 24.04 (Dell OptiPlex 7050), Node.js v22
 
 ## Diagrams
 
